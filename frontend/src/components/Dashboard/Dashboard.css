@@ -1,0 +1,33 @@
+.dropbtn {
+    background-color: transparent;
+    display: flex;
+    /* justify-content: center; */
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .dropdown {
+    display: block;
+  }
+  
+  .dropdown-content {
+    position: absolute;
+  }
+  
+  .dropdown-content a {
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: orange;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: transparent;
+  }
+  
